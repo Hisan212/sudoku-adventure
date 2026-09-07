@@ -1,1 +1,0 @@
-let t="";if("undefined"!=typeof document){const e=document.querySelector("base");e&&e.getAttribute("href")&&(t=e.getAttribute("href").replace(/\/$/,""))}function e(e){return e?e.startsWith("http")||e.startsWith("data:")?e:e.startsWith("/")?t+e:e:e}export{e as a};
